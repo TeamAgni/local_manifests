@@ -12,15 +12,16 @@
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/ril" />
-  <project name="AICP/kernel_motorola_msm8992" path="kernel/motorola/msm8992" remote="github" revision="mm6.0" />
-  <project name="AOSPB/hardware_ril" path="hardware/ril-caf" remote="github" revision="mm6.0-caf" />
+  <project name="CyanogenMod/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="cm-13.0-caf" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="github" revision="cm-13.0-caf" />
-  <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_system_qcom" path="system/qcom" remote="github" revision="cm-13.0" />
-  <project name="purenexus-clark/android_device_motorola_clark" path="device/motorola/clark" remote="github" revision="mm2" />
-  <project name="purenexus-clark/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="mm2" />
+  <project name="Cyanogenmod/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-13.0" />
+  <project name="Cyanogenmod/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-13.0" />
+  <project name="Cyanogenmod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-13.0" />
   <project path="build" name="purenexus-clark/android_build" remote="github" revision="mm2" >
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -30,11 +31,13 @@
   <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" remote="github" revision="cm-13.0" />
   <project path="frameworks/opt/telephony" name="purenexus-clark/android_frameworks_opt_telephony" remote="github" revision="mm2" />
   <project path="hardware/libhardware" name="purenexus-clark/android_hardware_libhardware" remote="github" revision="mm2" />
-  <project path="hardware/qcom/bt" name="purenexus-clark/android_hardware_qcom_bt" remote="github" revision="mm" />
-  <project path="hardware/qcom/camera" name="purenexus-clark/android_hardware_qcom_camera" remote="github" revision="mm2" />
+  <project path="hardware/qcom/media" name="Cyanogenmod/android_hardware_qcom_media" remote="github" revision="cm-13.0" />
   <project path="hardware/qcom/display" name="purenexus-clark/android_hardware_qcom_display" remote="github" revision="mm2" />
   <project path="hardware/qcom/gps" name="purenexus-clark/android_hardware_qcom_gps" remote="github" revision="mm2" />
-  <project path="hardware/ril" name="purenexus-clark/android_hardware_ril" remote="github" revision="mm2" />
+  <project path="hardware/qcom/audio" name="Cyanogenmod/android_hardware_qcom_gps" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/media-caf/msm8974" name="Cyanogenmod/android_hardware_qcom_media" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8974" name="Cyanogenmod/android_hardware_qcom_display" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="Cyanogenmod/android_hardware_qcom_gps" remote="github" revision="cm-13.0-caf-8974" /
   <project path="system/core" name="purenexus-clark/android_system_core" remote="github" revision="mm2-moto" />
   <project path="system/vold" name="purenexus-clark/android_system_vold" remote="github" revision="mm2" />
   <project path="vendor/nexus" name="purenexus-clark/android_vendor_nexus" remote="github" revision="mm2" />
